@@ -1,5 +1,13 @@
 // main.scss  
 
-div {
-    border: 1px solid black;
-}
+@import 'abstracts/_functions.scss';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+@import 'components/button';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'pages/home';
